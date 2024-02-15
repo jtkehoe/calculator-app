@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <input id="input">
+            <div id="row">
+                <button onclick="operatorPressed('+')">+</button>
+                <button onclick="operatorPressed('-')">-</button>
+                <button onclick="operatorPressed('*')">*</button>
+                <button onclick="operatorPressed('/')">/</button>
+            </div>
+            <div id="lower-buttons">
+                <div id="numbers">
+                    <div id="row">
+                        <button id="number-button" onclick="numberPressed(7)">7</button>
+                        <button id="number-button" onclick="numberPressed(8)">8</button>
+                        <button id="number-button" onclick="numberPressed(9)">9</button>
+                    </div>
+                    <div id="row">
+                        <button id="number-button" onclick="numberPressed(4)">4</button>
+                        <button id="number-button" onclick="numberPressed(5)">5</button>
+                        <button id="number-button" onclick="numberPressed(6)">6</button>
+                    </div>
+                    <div id="row">
+                        <button id="number-button" onclick="numberPressed(1)">1</button>
+                        <button id="number-button" onclick="numberPressed(2)">2</button>
+                        <button id="number-button" onclick="numberPressed(3)">3</button>
+                    </div>
+                    <div id="row">
+                        <button id="number-button" onclick="numberPressed(0)">0</button>
+                        <button id="number-button" onclick="numberPressed('.')">.</button>
+                        <button id="number-button" onclick="numberPressed('C')">C</button>
+                    </div>
+                </div>
+                <button id="equals" onclick="equalsPressed()">=</button>
+            </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

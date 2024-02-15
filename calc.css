@@ -1,0 +1,48 @@
+.calculator {
+    display: flex;
+    border: 3px solid black;
+    width: 50%;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, slategray, black);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#input {
+    margin: 10px;
+    height: 50px;
+    font-size: 48px;
+    border: 3px solid black;
+    color: white;
+    background-color: darkslategray;
+}
+
+#row {
+    display: flex;
+}
+
+#numbers {
+    flex: 4;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+#lower-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    flex: 1;
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#number-button {
+    height: 50px;
+}
